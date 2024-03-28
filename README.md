@@ -12,7 +12,7 @@ Files Chapter 4 (Result gathering):
 * 'Spearman Correlation' (Python Code) for efficiently calculating five correlations: one for each use case, and a correlation where all companies and their announcement labelings are correlated jointly
 * 'DualCircular' (Gephi file) that shows visually the partnering companies per use case (visualizing answer to the WHO question)
 * 'Announcement Network by purpose' (Gephi file) showing visually the partnering companies and the type of purpose (i.e. reason) and structure (commitment level of partnership) per partnership
-* * 'LDA model for 179 titles' (Python Code) for preprocessing and running LDA model on 179 keyword matching news articles
+* 'LDA model for 179 titles' (Python Code) for preprocessing and running LDA model on 179 keyword matching news articles
 * 'lda_visualization_t=5' (HTML file that shows the pyvis visualization for making sense of the LDA at t=5). The final LDA model, that has the best perplexity / coherence and human judgement scores
   
 Abstract: 
