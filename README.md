@@ -1,3 +1,18 @@
+This repository shows codes and the files that were used to derive results of the thesis. 
+
+Files Chapter 3 (Data Selection):
+* 'AllInOneCSV' (Excel CSV) that shows all scraped news from newsrooms of companies suggested by literature
+* Finding_Announcements_with_keywords' (Python Code File) for keeping news that contain partnership relevant keywords
+* 'Clustering AV company descriptions' (Python Code File) for recreating the clustering on basis of company descriptions
+
+
+Files Chapter 4 (Result gathering):
+* 'Manual Labeling' (Excel File) showing manual labels into typology of Barnes et al.
+* 231203_CB_selected descriptions (Excel File) for collecting data on all companies mentioned from Crunchbase
+* 'Spearman Correlation' (Python Code) for efficiently calculating five correlations: one for each use case, and a correlation where all companies and their announcement labelings are correlated jointly
+* 
+
+Abstract: 
 This thesis investigates 179 announcements of 39 predefined companies from shared autonomous vehicles (SAV), and autonomous transport vehicles (ATV) with respect to the involved companies, and motives for partnering up. Studying partnerships is getting more relevant due to increasing specialization of companies within their respective value chain segments (components of the final product) making vertical integration within autonomous mobility business chains more inefficient. Simultaneously high transaction costs, production costs and unsafe returns in uncertain businesses, favor partnerships as a middle ground to gain access to complementary resources instead of traditional purchase agreements.
 Answers on who the companies are, will be provided in terms of industry and layer membership. Answers on why companies enter agreements will be given in terms of announcement structures, and their purposes, as labeled manually into typologies suggested by alliance research. Attempts to offer standardized labels through LDA with a ideal topic size of 13 topics, turned out to be too ambiguous for reliable analysis. 
 To offer more general descriptive insights into what type of companies enter partnerships, company metrics like funding, headcount and public status are correlated with the manually labeled partnership variables.
