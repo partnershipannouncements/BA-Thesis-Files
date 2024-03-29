@@ -15,7 +15,8 @@ Files Chapter 4 (Result gathering):
 * 'LDA model for 179 titles' (Python Code) for preprocessing and running LDA model on 179 keyword matching news articles as an alternative to manual labeling.
 * 'lda_visualization_t=5' (HTML file that shows the pyvis visualization for making sense of the LDA at t=5). The final LDA model, that has the best perplexity / coherence and human judgement scores
   
-Abstract: 
+* Abstract *
+
 This thesis investigates 179 announcements of 39 predefined companies from shared autonomous vehicles (SAV), and autonomous transport vehicles (ATV) with respect to the involved companies, and motives for partnering up. Studying partnerships is getting more relevant due to increasing specialization of companies within their respective value chain segments (components of the final product) making vertical integration within autonomous mobility business chains more inefficient. Simultaneously high transaction costs, production costs and unsafe returns in uncertain businesses, favor partnerships as a middle ground to gain access to complementary resources instead of traditional purchase agreements.
 Answers on who the companies are, will be provided in terms of industry and layer membership. Answers on why companies enter agreements will be given in terms of announcement structures, and their purposes, as labeled manually into typologies suggested by alliance research. Attempts to offer standardized labels through LDA with a ideal topic size of 13 topics, turned out to be too ambiguous for reliable analysis. 
 To offer more general descriptive insights into what type of companies enter partnerships, company metrics like funding, headcount and public status are correlated with the manually labeled partnership variables.
