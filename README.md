@@ -1,18 +1,18 @@
-This repository shows codes and the files that were used to derive results of the thesis. 
+This repository shows 10 files that were used to derive results for the thesis on "who and why engages in partnerships in the shared autonomous transport / autonomous transport vehicle industries". 
 
 Files Chapter 3 (Data Selection):
-* 'AllInOneCSV' (Excel CSV) that shows all scraped news from newsrooms of companies suggested by literature
-* Finding_Announcements_with_keywords' (Python Code File) for keeping news that contain partnership relevant keywords
-* 'Clustering AV company descriptions' (Python Code File) for recreating the clustering on basis of company descriptions
+* 'AllInOneCSV' (Excel CSV) that shows all scraped news from newsrooms of companies included in scope.
+* 'Finding_Announcements_with_keywords' (Python Code File) for filtering out news that contain partnership relevant keywords
+* 'Clustering AV company descriptions' (Python Code File) for clustering more than 2400 companies flagged as belonging to the  "autonomous vehicle" industry. On basis of their Crunchbase descriptions, it was possible to illustrate the different types of companies in the industry, shedding light on the value chain to be expected in the industry.
+* 231203_CB_selected descriptions (Excel File) for collecting data on all companies mentioned from Crunchbase
 
 
 Files Chapter 4 (Result gathering):
-* 'Manual Labeling' (Excel File) showing manual labels into typology of Barnes et al.
-* 231203_CB_selected descriptions (Excel File) for collecting data on all companies mentioned from Crunchbase
+* 'Manual Labeling' (Excel File) showing manual labels (by reason and commitment) of announcements into typology of Barnes et al.
 * 'Spearman Correlation' (Python Code) for efficiently calculating five correlations: one for each use case, and a correlation where all companies and their announcement labelings are correlated jointly
 * 'DualCircular' (Gephi file) that shows visually the partnering companies per use case (visualizing answer to the WHO question)
-* 'Announcement Network by purpose' (Gephi file) showing visually the partnering companies and the type of purpose (i.e. reason) and structure (commitment level of partnership) per partnership
-* 'LDA model for 179 titles' (Python Code) for preprocessing and running LDA model on 179 keyword matching news articles
+* 'Announcement Network by purpose' (Gephi file) showing visually the partnering companies and the type of purpose (i.e. reason) and structure (commitment level of partnership) per partnership (visualizing the WHY question)
+* 'LDA model for 179 titles' (Python Code) for preprocessing and running LDA model on 179 keyword matching news articles as an alternative to manual labeling.
 * 'lda_visualization_t=5' (HTML file that shows the pyvis visualization for making sense of the LDA at t=5). The final LDA model, that has the best perplexity / coherence and human judgement scores
   
 Abstract: 
