@@ -15,7 +15,7 @@
 * 'LDA model for 179 titles' (Python Code) for preprocessing and running LDA model on 179 keyword matching news articles as an alternative to manual labeling.
 * 'lda_visualization_t=5' (HTML file that shows the pyvis visualization for making sense of the LDA at t=5). The final LDA model, that has the best perplexity / coherence and human judgement scores
 
-*To view the Gephi files interactively, the downloading gephi software is necessary (https://gephi.org/)
+*To view the Gephi files interactively, the downloading gephi software is necessary (https://gephi.org/). SVG files are provided in folder "Chapter 4 (Result gathering)"
 
 **Abstract**
 
