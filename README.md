@@ -7,7 +7,7 @@
 * 231203_CB_selected descriptions (Excel File) for collecting data on all companies mentioned from Crunchbase
 
 
-**Files Chapter 4 (Result gathering)**
+**Files Chapter 4 (Results and Discussion)**
 * 'Manual Labeling' (Excel File) showing manual labels (by reason and commitment) of announcements into typology of Barnes et al.
 * 'Spearman Correlation' (Python Code) for efficiently calculating five correlations: one for each use case, and a correlation where all companies and their announcement labelings are correlated jointly
 * 'DualCircular' (Gephi file) that shows visually the partnering companies per use case (visualizing answer to the WHO question) *
@@ -15,7 +15,7 @@
 * 'LDA model for 179 titles' (Python Code) for preprocessing and running LDA model on 179 keyword matching news articles as an alternative to manual labeling.
 * 'lda_visualization_t=5' (HTML file that shows the pyvis visualization for making sense of the LDA at t=5). The final LDA model, that has the best perplexity / coherence and human judgement scores
 
-*To view the Gephi files interactively, the downloading gephi software is necessary (https://gephi.org/). SVG files are provided in folder "Chapter 4 (Result gathering)"
+*To view the Gephi files interactively, the downloading gephi software is necessary (https://gephi.org/). SVG files are provided in folder 'Chapter 4 (Results and Discussion)'
 
 **Abstract**
 
