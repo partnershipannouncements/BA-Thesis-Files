@@ -10,11 +10,13 @@
 **Files Chapter 4 (Result gathering)**
 * 'Manual Labeling' (Excel File) showing manual labels (by reason and commitment) of announcements into typology of Barnes et al.
 * 'Spearman Correlation' (Python Code) for efficiently calculating five correlations: one for each use case, and a correlation where all companies and their announcement labelings are correlated jointly
-* 'DualCircular' (Gephi file) that shows visually the partnering companies per use case (visualizing answer to the WHO question)
-* 'Announcement Network by purpose' (Gephi file) showing visually the partnering companies and the type of purpose (i.e. reason) and structure (commitment level of partnership) per partnership (visualizing the WHY question)
+* 'DualCircular' (Gephi file) that shows visually the partnering companies per use case (visualizing answer to the WHO question) *
+* 'Announcement Network by purpose' (Gephi file) showing visually the partnering companies and the type of purpose (i.e. reason) and structure (commitment level of partnership) per partnership (visualizing the WHY question) *
 * 'LDA model for 179 titles' (Python Code) for preprocessing and running LDA model on 179 keyword matching news articles as an alternative to manual labeling.
 * 'lda_visualization_t=5' (HTML file that shows the pyvis visualization for making sense of the LDA at t=5). The final LDA model, that has the best perplexity / coherence and human judgement scores
-  
+
+*To view the Gephi files interactively, the downloading gephi software is necessary (https://gephi.org/)
+
 **Abstract**
 
 This thesis investigates 179 announcements of 39 predefined companies from shared autonomous vehicles (SAV), and autonomous transport vehicles (ATV) with respect to the involved companies, and motives for partnering up. Studying partnerships is getting more relevant due to increasing specialization of companies within their respective value chain segments (components of the final product) making vertical integration within autonomous mobility business chains more inefficient. Simultaneously high transaction costs, production costs and unsafe returns in uncertain businesses, favor partnerships as a middle ground to gain access to complementary resources instead of traditional purchase agreements.
