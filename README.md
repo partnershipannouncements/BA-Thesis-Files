@@ -8,7 +8,7 @@
 
 
 **Files Chapter 4 (Results and Discussion)**
-* 'Gephi Outputs SVG' shows the output from Gephi files in SVG, To view the files, software installment is necessary (https://gephi.org/).
+* 'Gephi Outputs SVG' shows the output from Gephi files in SVG. To view the files, software installment is necessary (https://gephi.org/).
 * 'DualCircular' (Gephi file) that shows visually the partnering companies per use case (visualizing answer to the WHO question) *
 * 'Announcement Network by purpose' (Gephi file) showing visually the partnering companies and the type of purpose (i.e. reason) and structure (commitment level of partnership) per partnership (visualizing the WHY question) *
 * 'Manual Labeling' (Excel File) showing manual labels (by reason and commitment) of announcements into typology of Barnes et al.. These labels are the basis for most discussions in the thesis. 
